@@ -1,0 +1,6 @@
+input CommentInput {
+    id: Int
+    text: String!
+    postId: ID!
+    authorId: ID!
+}

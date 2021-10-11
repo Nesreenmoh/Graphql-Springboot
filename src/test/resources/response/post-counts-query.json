@@ -1,0 +1,24 @@
+{
+  "data": {
+    "authors": [
+      {
+        "id": "11",
+        "name": "Wyne Dyer",
+        "email": "john@gmail.com",
+        "postsCounts": 2
+      },
+      {
+        "id": "22",
+        "name": "Gay Shetty",
+        "email": "gay@gmail.com",
+        "postsCounts": 1
+      },
+      {
+        "id": "30",
+        "name": "Robin Sharma",
+        "email": "robin@gmail.com",
+        "postsCounts": 1
+      }
+    ]
+  }
+}

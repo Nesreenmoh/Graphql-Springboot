@@ -1,0 +1,6 @@
+mutation{
+    createAuthor(authorInput: {
+        name: "test"
+        email: "test@gmail.com"
+    })
+}

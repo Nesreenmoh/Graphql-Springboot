@@ -1,0 +1,43 @@
+{
+  "data": {
+    "authors": [
+      {
+        "id": "11",
+        "name": "Wyne Dyer",
+        "email": "john@gmail.com",
+        "posts": [
+          {
+            "id": "22",
+            "title": "You will see it when you believe it"
+          },
+          {
+            "id": "44",
+            "title": "Now I see Clearly"
+          }
+        ]
+      },
+      {
+        "id": "22",
+        "name": "Gay Shetty",
+        "email": "gay@gmail.com",
+        "posts": [
+          {
+            "id": "33",
+            "title": "Think Like the Monk"
+          }
+        ]
+      },
+      {
+        "id": "30",
+        "name": "Robin Sharma",
+        "email": "robin@gmail.com",
+        "posts": [
+          {
+            "id": "11",
+            "title": "5 Am club"
+          }
+        ]
+      }
+    ]
+  }
+}
