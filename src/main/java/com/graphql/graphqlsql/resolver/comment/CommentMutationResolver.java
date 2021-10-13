@@ -10,12 +10,17 @@ import org.springframework.stereotype.Component;
 public class CommentMutationResolver implements GraphQLMutationResolver {
 
     private final CommentService commentService;
+    private final CommentPublisher commentPublisher;
 
-    public CommentMutationResolver(CommentService commentService) {
+    public CommentMutationResolver(CommentService commentService, CommentPublisher commentPublisher) {
         this.commentService = commentService;
+        this.commentPublisher = commentPublisher;
     }
 
     public Long createComment(CommentDto commentDto){
-        return commentService.createComment(commentDto);
+        Long commentId = commentService.createComment(commentDto);
+        commentPublisher.publish(commentDto);
+        commentDto.setId(commentId);
+        return commentId;
     }
 }

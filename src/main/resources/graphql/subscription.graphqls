@@ -1,4 +1,5 @@
 type Subscription{
     recentPost: Post!
     recentPostByAuthorId(authorId: ID!): Post!
+    recentCommentByPost(postId: ID!): Comment!
 }
