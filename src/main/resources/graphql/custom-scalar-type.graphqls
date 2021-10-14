@@ -1,0 +1,7 @@
+# RFC-339 Compliant
+scalar Date
+scalar DateTime
+scalar Time
+scalar PhoneNumber
+scalar SocialMediaLink
+#scalar Email
